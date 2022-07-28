@@ -1,6 +1,6 @@
 # TwoPersons
 
-##Introduction
+## Introduction
 This project is an online store. Three categories of items are sold: Tech, clothes and toys. TwoPersons is a website which allows members of the TwoPersons community to sell
       items they don't need and have them delivered to your doorstep without
       shipping fees.
