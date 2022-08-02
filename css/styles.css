@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+}
+
+.navigation {
+  background-color: lightgrey;
+}
+
+.search {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.links {
+  display: inline-block;
+}
+
+.links ul li {
+  display: inline;
+
+}
+
+.links ul li a {
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: Arial;
+  color: grey;
+  margin-left: 1em;
+
+}
+
+.links ul li a:hover {
+  color: black;
+}
+
+.banner {
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.3)), url('../img/orange.jpeg');
+  background-repeat: no-repeat;
+  padding: 1em;
+  position: relative;
+  height: 50vh;
+  background-size: cover;
+}
+
+.banner h1 {
+  font-family: Arial;
+  color: black;
+  max-width: 65%;
+}
+
+.banner h2 {
+  font-family: Arial;
+  color: black;
+  font-weight: lighter;
+  max-width: 50%;
+}
+
+.banner a {
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: Arial;
+  background-color: black;
+  color: orange;
+  padding: 0.5em;
+  border-radius: 0.1em;
+}
+
+.main {
+  padding: 1em;
+  margin: 0 auto;
+  max-width: 75%
+}
+
+.box {
+  border-style: solid;
+  border-color: black;
+  border-radius: 0.5em;
+  padding: 1em;
+  margin: 1em;
+  display: inline-block;
+  width: 20%;
+}
+
+#featured {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/iphone.jpeg");
+  background-size: 100%;
+  color: white;
+}
+
+.wide {
+  width: 50%;
+}
+
+.product {
+  margin: 3em auto;
+  max-width: 80%;
+}
+
+
+.product .info {
+  display: inline-block;
+  padding: 1em;
+  width: 80%;
+}
+
+.product .image {
+  display: inline-block;
+  padding: 1em;
+  vertical-align: top;
+}
+
+
+.product .image img {
+  width: 100px;
+}
